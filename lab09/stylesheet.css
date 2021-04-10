@@ -24,8 +24,8 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
-
-    nav a {width: 100%;
+    nav a {
+    width: 100%;
     display: block;
     margin: 5px 0px 10px 10px;
     }
