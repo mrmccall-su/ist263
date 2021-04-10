@@ -23,5 +23,9 @@ nav {
     padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    nav {max-width: 100%;}
+}
+
 nav a {color: #BA01FF;}
 nav a:hover{background-color: #6CF3D5;}
