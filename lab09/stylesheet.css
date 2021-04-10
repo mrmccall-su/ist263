@@ -25,6 +25,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
     nav {max-width: 100%;}
+    span {display: none}
 }
 
 nav a {color: #BA01FF;}
