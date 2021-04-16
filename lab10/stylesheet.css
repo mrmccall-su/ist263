@@ -1,0 +1,43 @@
+h1, h2{
+    color: #D1F2A5;
+    font-size: 2.5em;
+}
+
+body {
+    background-color: #D2CFCA;
+}
+
+p {
+    color: #040004;
+    font-size: 1.5em;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+a:link {
+    color: #00C176;
+}
+a:visited {
+    color: #FF003C;
+}
+
+nav {
+    background-color: #EEE0B7;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+    width: 100%;
+    display: block;
+    margin: 5px 0px 15px 15px;
+    }
+    nav span {
+        display: none;
+    }
+}
+nav a {color: #BA01FF;}
+nav a:hover{background-color: #6CF3D5;}
