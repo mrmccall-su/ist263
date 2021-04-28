@@ -6,3 +6,10 @@ body {
     background-color: #EFEFEF;
     font-family: Georgia, serif;
 }
+
+.applemusic-history {
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.applemusic-vid, .applemusic-interface {flex: 1;}
