@@ -19,5 +19,4 @@ body {
     clear: both;
 }
 
-.applemusic-vid, .applemusic-interface {flex: 1;
-                                        float: right;}
+.applemusic-vid, .applemusic-interface {flex: 1;}
