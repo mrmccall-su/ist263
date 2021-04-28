@@ -10,6 +10,7 @@ body {
 
 .applemusic-history {
     float: left;
+    width: 50%;
     padding: 15px;
     margin-top: 30px;
 }
