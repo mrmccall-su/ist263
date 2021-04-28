@@ -7,7 +7,9 @@ body {
     font-family: Georgia, serif;
 }
 
+
 .applemusic-history {
+    float: left;
     padding: 15px;
     margin-top: 30px;
 }
