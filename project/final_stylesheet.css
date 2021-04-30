@@ -38,11 +38,11 @@ body {
 
 .applemusic-history {
     height: 200px;
+    float: left;
     width: 50%;
 }
 
 .applemusic-vid-interface {
-    float: left;
     width: 50%;
     height: 200px;
 }
