@@ -19,4 +19,5 @@ body {
     clear: both;
 }
 
-.applemusic-vid, .applemusic-interface, .applemusic-history {flex: 1;}
+.applemusic-vid, .applemusic-interface, .applemusic-history {flex-wrap: wrap;
+                                                            flex: 1;}
