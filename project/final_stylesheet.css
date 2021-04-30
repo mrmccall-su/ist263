@@ -43,5 +43,6 @@ body {
 }
 
 .applemusic-vid-interface {
+    float: right;
     height: 200px;
 }
