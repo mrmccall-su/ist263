@@ -19,6 +19,9 @@ body {
     clear: both;
 } */
 
+.applemusic2columns {
+    margin: 15px;
+}
 .applemusic-row {
     display: flex;
     flex-direction: row;
