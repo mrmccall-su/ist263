@@ -19,5 +19,24 @@ body {
     clear: both;
 }
 
-.applemusic-vid, .applemusic-interface, .applemusic-history {flex-wrap: wrap;
-                                                            flex: 1;}
+.applemusic-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.applemusic-column1, .applemusic-column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.applemusic-history {
+    height: 200px;
+}
+
+.applemusic-vid-interface {
+    height: 200px;
+}
