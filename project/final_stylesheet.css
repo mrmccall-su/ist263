@@ -36,13 +36,14 @@ body {
     flex: 1;
 }
 
-.applemusic-history {
+/*.applemusic-history {
     height: 200px;
     float: left;
     width: 50%;
-}
+} */
 
 .applemusic-vid-interface {
     width: 50%;
+    float: right;
     height: 200px;
 }
