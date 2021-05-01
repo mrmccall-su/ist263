@@ -7,11 +7,11 @@ body {
     font-family: Georgia, serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #25274D;
 }
 
-p {
+p, ul {
     color: #F76C6C;
 }
 
