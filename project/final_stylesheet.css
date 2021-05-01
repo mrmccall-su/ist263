@@ -15,28 +15,51 @@ p, ul {
     color: #F76C6C;
 }
 
+
+/*APPLE MUSIC APPLE MUSIC APPLE MUSIC APPLE MUSIC*/
 .twocolumns {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .applemusic-history {
-    justify-content: space-evenly;
     flex: 1;
     margin: 15px;
     padding: 20px;
     order: 1;
-    width: 50%;
+    width: 40%;
 }
 
 .applemusic-vid-interface {
+    flex: 1;
+    margin: 15px;
+    padding: 20px;
+    order: 2;
+    width: 60%;
+}
+
+.bottomcolumns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+}
+
+.applemusic-proscons {
+    flex: 1;
+    margin: 15px;
+    padding: 20px;
+    order: 1;
+}
+
+.apple-paymentoptions {
     flex: 1;
     margin: 15px;
     padding: 20px;
     order: 2;
 }
-
-
 
 
 
