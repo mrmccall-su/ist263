@@ -22,12 +22,12 @@ body {
 .applemusic2columns {
     margin: 15px;
 }
-.applemusic-row {
+/*.applemusic-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-}
+}*/
 
 /*.applemusic-column1, .applemusic-column2 {
     display: flex;
@@ -42,6 +42,7 @@ body {
     width: 50%;
     padding: 15px;
     margin-top: 20px;
+    flex:1;
 } 
 
 .applemusic-vid-interface {
