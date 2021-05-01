@@ -49,6 +49,7 @@ body {
     padding: 15px;
     margin-top: 20px;
     flex-wrap: wrap;
+    float: right;
     height: 200px;
 }
 
