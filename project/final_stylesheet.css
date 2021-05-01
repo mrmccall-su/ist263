@@ -15,6 +15,31 @@ p, ul {
     color: #F76C6C;
 }
 
+.twocolumns {
+    display: flex;
+}
+
+.applemusic-history {
+    margin: 15px;
+    padding: 20px;
+    order: 1;
+}
+
+.applemusic-vid-interface {
+    margin: 15px;
+    padding: 20px;
+    order: 2;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*.applemusic-history {
     float: left;
@@ -27,7 +52,7 @@ p, ul {
     clear: both;
 } */
 
-.applemusic2columns {
+/*.applemusic2columns {
     margin: 15px;
 }
 /*.applemusic-row {
@@ -44,7 +69,7 @@ p, ul {
     flex: 1;
 }*/
 
-.applemusic-history {
+/*.applemusic-history {
     height: 200px;
     float: left;
     width: 50%;
@@ -66,4 +91,4 @@ p, ul {
 .applemusic_proscons {
     padding-top: 30px;
     clear: both;
-}
+} */
