@@ -20,6 +20,8 @@ p, ul {
 }
 
 .applemusic-history {
+    justify-content: space-evenly;
+    flex: 1;
     margin: 15px;
     padding: 20px;
     order: 1;
@@ -27,6 +29,8 @@ p, ul {
 }
 
 .applemusic-vid-interface {
+    justify-content: space-evenly;
+    flex: 1;
     margin: 15px;
     padding: 20px;
     order: 2;
