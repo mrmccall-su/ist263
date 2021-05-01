@@ -44,6 +44,6 @@ body {
 
 .applemusic-vid-interface {
     width: 50%;
-    float: right;
+    flex-wrap: wrap;
     height: 200px;
 }
