@@ -23,6 +23,7 @@ p, ul {
     margin: 15px;
     padding: 20px;
     order: 1;
+    width: 50%;
 }
 
 .applemusic-vid-interface {
