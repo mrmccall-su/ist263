@@ -29,22 +29,29 @@ body {
     width: 100%;
 }
 
-.applemusic-column1, .applemusic-column2 {
+/*.applemusic-column1, .applemusic-column2 {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-}
+}*/
 
-/*.applemusic-history {
+.applemusic-history {
     height: 200px;
     float: left;
     width: 50%;
-} */
+    padding: 15px;
+    margin-top: 30px;
+} 
 
 .applemusic-vid-interface {
     width: 50%;
     flex-wrap: wrap;
     float: right;
     height: 200px;
+}
+
+.applemusic_proscons {
+    padding-top: 30px;
+    clear: both;
 }
