@@ -40,7 +40,7 @@ p, ul {
     width: 60%;
 }
 
-.bottomcolumns {
+.bottom-columns {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -51,15 +51,19 @@ p, ul {
 .applemusic-proscons {
     flex: 1;
     margin: 5px 120px 10px 125px;
-    padding: 20px;
+    padding: 35px;
     order: 1;
+    background-color: #E7717D;
+    border-radius: 4em;
 }
 
 .apple-paymentoptions {
     flex: 1;
     margin: 5px 120px 10px 125px;
-    padding: 20px;
+    padding: 40px;
     order: 1;
+    background-color: #E7717D;
+    border-radius: 4em;
 } 
 
 
