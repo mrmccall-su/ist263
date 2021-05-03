@@ -28,6 +28,8 @@ p, ul {
     font-size: 17px;
 }
 
+nav a {color: #F81B84;}
+nav a:hover{background-color: #4ec5c1;}
 
 /*APPLE MUSIC APPLE MUSIC APPLE MUSIC APPLE MUSIC*/
 .twocolumns {
