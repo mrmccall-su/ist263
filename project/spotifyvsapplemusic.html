@@ -30,6 +30,16 @@
             }        
 
         </style>
+            
+        <script>
+            var e = document.getElementById('parent');
+            e.onmouseover = function() {
+                document.getElementById('popup').style.display = 'block';
+            }
+            e.onmouseout = function() {
+                document.getElementById('popup').style.display = 'none';
+            }
+        </script>
     </head>
 
     <body>
@@ -69,11 +79,13 @@
                 <div class = "articles">
                     <div class = "soundguys-article">
                         <h3>Sound Guys Article</h3>
+
                         <a href = "https://www.soundguys.com/apple-music-vs-spotify-36833/" target="_blank"><img src="project-images/soundguys-logo.jpg" alt="Sound Guys Logo"></a>
 
                     </div>
 
-                    <div class = "digitaltrends-article">
+                    <div class = "digitaltrends-article" id="parent">
+                        <div id="popup" style="display: none">Michael Bizzaco and Quentyn Kennemer go over the similarities and differences between Apple Music and Spotify!</div>
                         <h3>Digital Trends Article</h3>
                         <a href = "https://www.digitaltrends.com/music/apple-music-vs-spotify/" target="_blank"><img src="project-images/digitaltrends-logo.jpeg" alt="Digital Trends Logo"></a>
                     </div>
