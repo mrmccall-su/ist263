@@ -27,18 +27,30 @@
             #applemusicfeature {
                 margin-left: 50px;
                 float: right;
-            }        
+            }
+
+            #tooltip {
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted black;
+            }
+            
+            #tooltip #tooltiptext {
+                visibility: hidden;
+                width: 200px;
+                background-color: #555;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+
+                
+            }
 
         </style>
             
         <script>
-            var e = document.getElementById('parent');
-            e.onmouseover = function() {
-                document.getElementById('popup').style.display = 'block';
-            }
-            e.onmouseout = function() {
-                document.getElementById('popup').style.display = 'none';
-            }
+
         </script>
     </head>
 
@@ -84,10 +96,10 @@
 
                     </div>
 
-                    <div class = "digitaltrends-article" id="parent">
-                        <div id="popup" style="display: none">Michael Bizzaco and Quentyn Kennemer go over the similarities and differences between Apple Music and Spotify!</div>
+                    <div class = "digitaltrends-article">
                         <h3>Digital Trends Article</h3>
-                        <a href = "https://www.digitaltrends.com/music/apple-music-vs-spotify/" target="_blank"><img src="project-images/digitaltrends-logo.jpeg" alt="Digital Trends Logo"></a>
+                        <div class= "tooltip"><a href = "https://www.digitaltrends.com/music/apple-music-vs-spotify/" target="_blank"><img src="project-images/digitaltrends-logo.jpeg" alt="Digital Trends Logo"></a>
+                            <span class="tooltiptext">The authors of the digital trends article discussed the similarities and differences between Apple Music and Spotify.</span>
                     </div>
                     <br>
                 </div>
