@@ -6,6 +6,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .footerpics {
@@ -68,7 +69,11 @@ nav a:hover{background-color: #fdfdfd;}
     margin: 15px;
     padding: 20px;
     order: 2;
-    width: 60%;
+    width: 100%;
+}
+
+.applemusic-video-width {
+    max-width: 100%;
 }
 
 .bottom-columns {
@@ -110,12 +115,11 @@ nav a:hover{background-color: #fdfdfd;}
 .spotify-history {
     flex: 1;
     background-color: #3CC47C;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 50px 5px 5px;
     border-radius: 4em;
     padding: 25px;
     order: 1;
     width: 40%;
-    height: 665px;
 }
 
 .spotify-vid-interface {
