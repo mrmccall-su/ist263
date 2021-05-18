@@ -216,6 +216,7 @@ nav a:hover{background-color: #fdfdfd;}
     padding: 20px 20px 20px 20px;
     margin: 15px 20px 15px 20px;
     overflow: hidden;
+    width: 100%;
 }
 
 .consensus {
@@ -223,6 +224,7 @@ nav a:hover{background-color: #fdfdfd;}
     border-radius: 2em;
     padding: 20px 20px 20px 20px;
     margin: 15px 20px 15px 20px;
+    max-width: 100%;
 }
 
 
