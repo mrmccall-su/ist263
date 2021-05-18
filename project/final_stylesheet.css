@@ -32,6 +32,18 @@ p, ul {
 nav a {color: #000000;}
 nav a:hover{background-color: #fdfdfd;}
 
+#hamicon {display: none;}
+            
+@media only screen and (max-width: 600px) {
+    span {display: none;}
+    #hamicon {display: block;}
+    nav a {
+        display: block;
+        padding: 10px 0px;
+        }
+    #navlinks {display:none;}
+}
+
 /*APPLE MUSIC APPLE MUSIC APPLE MUSIC APPLE MUSIC*/
 .twocolumns {
     display: flex;
