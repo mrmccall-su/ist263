@@ -10,6 +10,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="project-images/applemusic-spotify-favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Red+Hat+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+
         <style>
             h1 {
                 text-align: center;
@@ -59,18 +60,40 @@
                 opacity: 1;
             }
 
+            #hamicon {display: none;}
+            
+            @media only screen and (max-width: 600px) {
+                span {display: none;}
+                #hamicon {display: block;}
+                nav a {
+                    display: block;
+                    padding: 10px 0px;
+                    }
+                #navlinks {display:none;}
+            }
         </style>
             
         <script>
-
+            function changenav() {
+                if (document.getElementById("navlinks").style.getPropertyValue("display")== 'block') {
+                    document.getElementById("navlinks").style.display = "none";
+                    
+                }
+                else {
+                    document.getElementById("navlinks").style.display = "block";
+                }
+            }
         </script>
     </head>
 
     <body>
         <nav>
-            <a href="Spotify.html">Spotify</a><span>|</span>
-            <a href="applemusic.html">Apple Music</a><span>|</span>
-            <a href="spotifyvsapplemusic.html">Spotify vs. Apple Music</a>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" id="hamicon" width="35" onclick="changenav();">
+            <div id="navlinks">
+                <a href="Spotify.html">Spotify</a><span>|</span>
+                <a href="applemusic.html">Apple Music</a><span>|</span>
+                <a href="spotifyvsapplemusic.html">Spotify vs. Apple Music</a>
+            </div>
         </nav>
         <div>
             <img src="project-images/spotify-original-logo.png" alt="Spotify Logo" class="spotifylogo">
