@@ -63,7 +63,8 @@ nav a {color: #000000;}
 nav a:hover{background-color: #fdfdfd;}
 
 #hamicon {display: none;}
-            
+
+
 @media only screen and (max-width: 600px) {
     span {display: none;}
     #hamicon {display: block;}
@@ -186,7 +187,9 @@ nav a:hover{background-color: #fdfdfd;}
 } 
 
 
-/*APPLE MUSIC VS. SPOTIFY SPPLE MUSIC VS. SPOTIFY APPLE MUSIC VS. SPOTIFY*/
+/*APPLE MUSIC VS. SPOTIFY APPLE MUSIC VS. SPOTIFY APPLE MUSIC VS. SPOTIFY*/
+
+/*https://www.w3schools.com/css/css_tooltip.asp*/
 
 .logoheader {
     font-size: 60px;
