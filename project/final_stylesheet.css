@@ -9,6 +9,13 @@
     width: 100%;
 }
 
+.footer {
+    padding: 10px;
+    background-color: #D1E8E2;
+    border-radius: 2em;
+    text-align: center;
+}
+
 .footerpics {
     display: block;
     margin-left: auto;
