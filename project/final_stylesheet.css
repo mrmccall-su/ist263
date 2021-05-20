@@ -21,7 +21,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/* SKIP TO CONTENT LINK */
+/* https://css-tricks.com/how-to-create-a-skip-to-content-link/ */
 .skip-to-content-link {
     left: 50%;
     position: absolute;
@@ -37,10 +38,12 @@
     transform: translateY(-100%);
     transition: transform 0.3s;
 }
-  
+
 .skip-to-content-link:focus {
     transform: translateY(0%);
   }
+
+
 body {
     background-color: #BAB2B5;
     font-family: Georgia, serif;
@@ -251,58 +254,3 @@ nav a:hover{background-color: #fdfdfd;}
     margin: 15px 20px 15px 20px;
     max-width: 100%;
 }
-
-
-
-
-/*.applemusic-history {
-    float: left;
-    width: 50%;
-    padding: 15px;
-    margin-top: 30px;
-} 
-
-.clear {
-    clear: both;
-} */
-
-/*.applemusic2columns {
-    margin: 15px;
-}
-/*.applemusic-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}*/
-
-/*.applemusic-column1, .applemusic-column2 {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}*/
-
-/*.applemusic-history {
-    height: 200px;
-    float: left;
-    width: 50%;
-    padding: 15px;
-    margin-top: 20px;
-    margin-right: 50px;
-    flex:1;
-} 
-
-.applemusic-vid-interface {
-    width: 50%;
-    padding: 15px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    float: right;
-    height: 200px;
-}
-
-.applemusic_proscons {
-    padding-top: 30px;
-    clear: both;
-} */
